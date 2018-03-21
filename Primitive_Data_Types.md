@@ -15,6 +15,8 @@ Those data types are as follows:
 | Symbol | .. (Note: I"m not sure when symbol will be used.) |
 | Object| |
 
+## Determining the type of variable
+
 
 
 [1]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
