@@ -7,7 +7,7 @@ Conditionals are the skeleton of programming. We also call conditionals "control
 
 ## Syntax
 The basic syntax is as follows:
-``` 
+```js
 if (condition) {
   // code to run when condition is true
 }
@@ -16,7 +16,7 @@ if (condition) {
 * ```// code to run when condition is true``` can be any code. It can output something to the console. It can return something. It can even be another conditional statement. 
 
 That syntax covers simple if-then statements, but we often want to have more than just one option in a condition. If that's the case, we need a slightly more complex syntax:
-```
+```js
 if (condition) {
   // this code runs if the condition evaluates to true
 }
@@ -36,7 +36,7 @@ else {
 Now let's take a look at some examples:
 
 ### Standard Else-If Statement
-```
+```js
 let age = 65
 if (age >= 65) {
   console.log('You may be eligible for Medicare!')
@@ -51,7 +51,7 @@ if (age >= 65) {
 * We assume that everyone who is not over 26 is by definition under 26; however, this may not always be the case. For example, imagine of someone set ```age = "thirty"```. In this case, it would evaluate as NaN and fall under the ```else``` bucket. When writing programs, you should be aware of mistakes people might make.
 
 ### Nested Within a Conditional
-```
+```js
 let age = 22
 let parentsHaveInsurance = 'yes'
 if (age >= 65) {
@@ -69,7 +69,7 @@ if (age >= 65) {
 * In this example, we nested another conditional in the last step of the conditional we wrote above. This now tests whether the user has access to a parent-owned plan. If so, they can use that insurance. If not, they will have to get their own. 
 
 ### Conditional Within a Function
-```
+```js
 function howToGetInsurance() {
   age = prompt('What is your age')
   parentsHaveInsurance = prompt('Do your parents have insurance? yes/no')
