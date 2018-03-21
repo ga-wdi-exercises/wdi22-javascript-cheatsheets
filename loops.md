@@ -99,8 +99,12 @@ You can use a *for loop* to traverse objects in an array.
 ```js
 var step;
 for (step = 0; step < 5; step++) {
+  [1, 2, 3, 4, 5]
+}
+
+
   // Runs 5 times, with values of step 0 through 4.
-  console.log('Walking east one step');
+  console.log(numberedList[step]);
 }
 ```
 [^fn]
