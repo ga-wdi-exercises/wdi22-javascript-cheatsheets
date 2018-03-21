@@ -1,5 +1,5 @@
       
-# WDI 22 Javascript Cheatsheets
+# WDI 22 Javascript Cheat Sheets
 
 Below are cheat sheets you can use to review  what we’ve learned in JavaScript so far! 
 
@@ -16,7 +16,7 @@ Below are cheat sheets you can use to review  what we’ve learned in JavaScript
 
   * [_Conditionals_](conditionals.md)
   * [_Loops_](loops.md)
-  * [_Array_](array.md)
+  * [_Arrays_](arrays.md)
 
 
 
@@ -24,7 +24,7 @@ Below are cheat sheets you can use to review  what we’ve learned in JavaScript
 ## Functions, Scope and Methods
 
   * [_Functions_](Functions.md)
-  * [_Scope_](scope.md)
+  * [_Scopes_](scope.md)
   * [_Higher Order Functions_](higher_order_functions.md)
   * [_Methods_](methods.md)
 
