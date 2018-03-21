@@ -7,7 +7,7 @@ There are already some GitHub issues on this repository. Feel free to add more i
 
 You must create unique examples of the JavaScript features for these cheat sheets, though the formatting is up to you all. This means that copying from the lesson plans is not sufficient!
 
-GitHub also generates static websites from markdown pages and hosts them on GitHub. We already have this repository deployed as a GitHub pages site, [check it out](https://ga-wdi-exercises.github.io/wdi22-javascript-cheatsheets/)! If you create new markdown files, then they will become pages for your site.
+GitHub also generates static websites from markdown pages and hosts them on GitHub. We already have this repository deployed as a GitHub pages site, [check it out](https://ga-wdi-exercises.github.io/wdi22-javascript-cheatsheets/)! If you create new markdown files, then they will become pages for your site. We recommend creating one markdown file for each topic.
 
 ## Steps
 * Fork this repository, clone it locally, then add in your markdown.
@@ -20,3 +20,6 @@ Each student must put in meaningful effort and contribute to this project. Each 
 
 ## Support
 Ali and James will be online merging pull requests and responding to student questions over Slack. If you think the answer will be helpful for multiple students, feel free to use #wdi22-discussion on slack to ask that question and we will respond there! You can also direct message us.
+
+# Example
+[Here's](https://www.alispit.tel/coding-cheat-sheets/) an example I made of a finished cheat sheet site and the [code](https://github.com/aspittel/coding-cheat-sheets) for it!
