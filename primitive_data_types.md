@@ -10,7 +10,7 @@ Those data types are as follows:
 | Strings | Ex: "string" |
 | Number | Ex: 7|
 | Undefined | The type of any variable that has not been assigned a type|
-| Null ||
+| Null | Data type with only one value `null`.|
 | Boolean | Ex: true, or false (includes truthy and falsy values) |
 | Symbol | .. (Note: I"m not sure when symbol will be used.) |
 | Object| |
