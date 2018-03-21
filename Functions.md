@@ -1,9 +1,11 @@
 # Functions
 
-### About
+### Definition 
 * A function is a block of reusable Javascript code or statement that can be called from anywhere in our program.
 
 * Thus, a function allows for the statements inside of it to _not_ be written over and over again.
+
+* Using functions, you can group [loops](loops.md) and [arrays](arrays.md).
 
     #### Summary: Function is a reusable & "DRY" block of Javascript code.
               
@@ -22,7 +24,7 @@ Using, conditional statements, this how our code would look:
 ``` js
 let product = "Fruit Loops"
 let orderAmount = 3
-console.log('Thank you for ordering ' + 'product');
+console.log('Thank you for ordering ' + product)
 if (orderAmount >= 25) {
 console.log('There is no shipping charge for orders over $25.00')
 } else {
@@ -40,7 +42,7 @@ console.log('There will be a $3.00 shipping charge for this order')
 
 ```
 
-_STOP_ : given that Amazon has over thousands of products, _we can't be writing out conditionals for each product_.
+_STOP_ : given that Amazon has over thousands of products, _we can't be writing out [conditionals](conditionals.md) for each product_.
 
 #### This is where a function comes in:
 
@@ -124,7 +126,7 @@ function order (product, orderAmount) {
   order (product, orderAmount)
 ```
 
-To call a function with no input, just put the function name  the empty followed by parentheses
+To call a function with no input, just put the function name, followed empty a parentheses
 
 ```js
 function order ()) {
@@ -134,4 +136,76 @@ function order ()) {
   order ()
 ```
 
+## Defining a Function
+
+ There are two ways to define a function: we can _declare_ it or _express_ it. 
+ Let's use our previous example again.
+
+
+#### Declaration
+
+```js
+function order (product, orderAmount) {
+}
+```
+Function declaration defines a function without assigning it a variable.
+
+
+#### Expression
+
+```js
+let order = function  (product, orderAmount) {
+}
+```
+Functio expression on the other hand, defines a function by _assigning_ it to a variable. Here, our function is assigned to the variable "Order."
+
+
+Although, function declaration and expressions accomplish the same thing, but are processed differently.
+
+
+
+## Hoisting
+
+Hoisting is when function declaration is processed before any code is executed.
+
+
+#### Example: Function Declaration
+
+```js
+
+order ('Fruit Loops', 3)
+function order (product, orderAmount) {
+  console.log('Thank you for ordering ' + product + '.')
+  return 'Congrats on your purchase!'
+}
+//Function Declaration
+```
+In this example, when our code runs, _the function declaration_ is processed *first*. Everything eles runs after from top to bottom. Thus, even if we call the function "order" before defining it, our code still runs.
+
+
+#### Example: Function Expression
+
+```js
+
+order ('Fruit Loops', 3)
+let order = function (product, orderAmount) {
+  console.log('Thank you for ordering ' + product + '.')
+  return 'Congrats on your purchase!'
+}
+// Function Expression
+```
+In this example, we get an error message
+
+
+### Note: 
+ Hoisting applies only to declarations, not initializations.
+
+
+-_Declaration_ : When the variable is introduced.
+
+-_Initalization_ : When a value is assigned to a variable
+
+
+### Works Cited
+- [MND](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
 
