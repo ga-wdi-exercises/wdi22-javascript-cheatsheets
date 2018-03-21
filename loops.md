@@ -90,11 +90,11 @@ for (let i in healthcareExchange) {
 
 
 
-###How to loop through an array
+### How to loop through an array
 
 You can use a *for loop* to traverse objects in an array. 
 
-####Example:
+#### Example:
 
 ```js
 var step;
@@ -103,3 +103,9 @@ for (step = 0; step < 5; step++) {
   console.log('Walking east one step');
 }
 ```
+[^fn]
+
+[^fn]
+March 13, 2018
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
