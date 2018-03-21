@@ -13,6 +13,25 @@ Anything else that isn't locally scoped to another function or object is part of
 ## Gotchas
 Here are some things you should look out for:
 
+Declaring variables without using var, let, or const.
+
+```javascript
+
+    let testFunction = function () {
+
+        let varDelaredCorrectly = 'doneRight'
+
+        varDeclaredIncorrectly = 'doneWrong'
+
+        return ""
+    }
+
+    console.log(varDeclaredCorrectly)  // will send error, as it is correctly scoped to the function
+
+
+    console.log(varDeclaredInCorrectly)  // will yield 'doneWrong', as it is now scoped globally
+```
+
 
 [1]: https://www.w3schools.com/js/js_scope.asp
 [2]: https://www.sitepoint.com/demystifying-javascript-variable-scope-hoisting/
