@@ -14,7 +14,6 @@ if (condition) {
 ```
 * ```condition``` will evaluate to a boolean value. 
 * ```// code to run when condition is true``` can be any code. It can output something to the console. It can return something. It can even be another conditional statement. 
-
 That syntax covers simple if-then statements, but we often want to have more than just one option in a condition. If that's the case, we need a slightly more complex syntax:
 ```js
 if (condition) {
@@ -43,8 +42,8 @@ if (age >= 65) {
 } else if (age >= 26) {
   console.log('You will need to acqurie your own health insurance either from an employer or via the exchanges.')
 } else {
-  console.log('You are eligible to receive health insurance from your parents' plan!')
-}
+  console.log('You are eligible to receive health insurance from your parents\' plan!')
+}Go
 ```
 * In this example, there are three segments of the population: people 65 and over, people 26-65, and people under 26. 
 * Because the computer reads the conditions sequentially, we don't need to write ```age < 65 && age >= 26```. We only need the last half of that statement
@@ -62,7 +61,7 @@ if (age >= 65) {
   if (parentsHaveInsurance === 'yes') {
     console.log('You can use your parents insurance!')
   } else {
-    console.log('Because your parents don't have insurance, you will need to acquire it from the exchanges or an employer.')
+    console.log('Because your parents don\'t have insurance, you will need to acquire it from the exchanges or an employer.')
   }
 }
 ```
@@ -76,12 +75,12 @@ function howToGetInsurance() {
   if (age >= 65) {
     console.log('You may be eligible for Medicare!')
   } else if (age >= 26) {
-    console.log('You will need to acqurie your own health insurance either from an employer or via the exchanges.')
+    console.log('You will need to acquire your own health insurance either from an employer or via the exchanges.')
   } else {
     if (parentsHaveInsurance === 'yes') {
       console.log('You can use your parents insurance!')
     } else {
-      console.log('Because your parents don't have insurance, you will need to acquire it from the exchanges or an employer.')
+      console.log('Because your parents don\'t have insurance, you will need to acquire it from the exchanges or an employer.')
   }
 }
 }
