@@ -3,7 +3,7 @@
 Objects are a collection of properties, or key/value pairs.  
 Objects are created using object literal notation. Use camelCase when creating object keys and add a comma after each key/value pair. You can add a comma after the last key/value pair, but best practice is to not have one.  
 Here is an example of an object created using **Object Literal Notation**:  
-```
+```js
 var dog = {
   name: 'Fido',
   age: 5,
@@ -16,33 +16,33 @@ Objects are a complex data type and sometimes referred to as an unordered list o
 
 Another way creating objects is to use the **Object Constructor Method** ```(var myObj = new Object() )```  
 While we will **not** be using this method, here is an example:  
-```
+```js
 var dog = new Object()
   dog.name = 'Fido',
   dog.age = 5,
   dog.enemy = 'cat'
 ```  
 Object proerties can be accessed throught dot .property or bracket ['property'] notation.  
-```
+```js
 console.log(dog.enemy)
 console.log(dog ['enemy']) 
 ```
 You can update the value of an object property by accessing it and assigning it a new value.
-```
+```js
 dog.enemy = 'postman'
 dog ['enemy'] = 'postman'
 ```
 You can add properties to objects in a similar fashion.
-```
+```js
 dog.trick = 'roll over'
 ```
 Deleting an object property removes the whole key/value pair, not just the value.   
-```
+```js
 delete dog.enemy
 ```
 
 Objects can also include nested collections such as arrays and other objects.
-```
+```js
 var dog = {
   name: 'Fido',
   age: 5,
@@ -60,7 +60,7 @@ var dog = {
 }
 ```
 Accessing nested collections through dot notiation:
-```
+```js
 console.log(dog.enemies[0])
 //returns 'cat'
 console.log(dog.vet.phone)
