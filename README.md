@@ -23,7 +23,7 @@ Below are cheat sheets you can use to review  what we’ve learned in JavaScript
 
 ## Functions, Scope and Methods
 
-  * [_Functions_](functions.md)
+  * [_Functions_](Functions.md)
   * [_Scope_](scope.md)
   * [_Higher Order Functions_](higher_order_functions.md)
   * [_Methods_](methods.md)
