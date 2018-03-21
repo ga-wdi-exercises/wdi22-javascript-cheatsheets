@@ -18,16 +18,26 @@ Those data types are as follows:
 ## Type Descriptions
 
 ### Strings
-Strings contain text.
+Strings contain text. They are typically written with quotes:
+```js
+typeof("hi, this is a string") // this is a string
+```
 
 ### Number
-There is only one number type
+Numbers are just like they sound. They are numbers. There is only one number type. However, there are a few tricky exceptions:
+```js
+typeof(10) // this is a number
+typeof("10") // this is a string
+"10" === 10 // this will evaluate false because 10 and "10" are not of the same data type
+"10" == 10 // this will evaluate true because the double == only checks if the value are the same while ignoring data types
+typeof(NaN) // NaN means 'Not a Number' but it will evaluate as a number.
+```
 
 ### Undefined
 Any variable has been declared, but not yet assigned a value will be a 'undefined.'
 
 ### Null
-A type with only one value. <sup>[1][1]</sup>
+Null is nothing. It is empty. In contrast, Undefined is waiting for a value. It is a type with only one value. <sup>[1][1]</sup>
 
 ### Boolean
 A variable with a type of boolean will either be true, false, "truthy" or "falsy." True and false values are self explanatory. Truthy and falsy require more explanation.
@@ -47,7 +57,8 @@ MDN contains a more complete list. <sup>[2][2]</sup>
 ```
 All the values above will evaluate to false.
 
-### Object
+### Collection
+Collections can be [arrays](arrays.md) or [objects](objects.md). You can click on the link to learn more about them. 
 
 ## Determining the type of variable
 We use `typeof <var>` to determine the type of a variable.
