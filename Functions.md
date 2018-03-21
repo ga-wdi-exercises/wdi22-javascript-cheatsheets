@@ -5,7 +5,7 @@
 
 * Thus, a function allows for the statements inside of it to _not_ be written over and over again.
 
-* Using functions, you can group [loops](loops.md) and [arrays](arrays.md)
+* Using functions, you can group [loops](loops.md) and [arrays](arrays.md).
 
     #### Summary: Function is a reusable & "DRY" block of Javascript code.
               
@@ -24,7 +24,7 @@ Using, conditional statements, this how our code would look:
 ``` js
 let product = "Fruit Loops"
 let orderAmount = 3
-console.log('Thank you for ordering ' + 'product');
+console.log('Thank you for ordering ' + product)
 if (orderAmount >= 25) {
 console.log('There is no shipping charge for orders over $25.00')
 } else {
@@ -126,7 +126,7 @@ function order (product, orderAmount) {
   order (product, orderAmount)
 ```
 
-To call a function with no input, just put the function name, followed empty followed by parentheses
+To call a function with no input, just put the function name, followed empty a parentheses
 
 ```js
 function order ()) {
@@ -201,6 +201,11 @@ In this example, we get an error message
  Hoisting applies only to declarations, not initializations.
 
 
-_Declaration_ : When the variable is introduced.
-_Initalization_ : When a value is assigned to a variable
+-_Declaration_ : When the variable is introduced.
+
+-_Initalization_ : When a value is assigned to a variable
+
+
+### Works Cited
+- [MND](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
 
