@@ -11,7 +11,7 @@
                    So, stay DRY: "Don't Repeat Yourself."
 
 
-## Function Reusablity and DRYness Example
+### Function Reusablity and DRYness Example
 
 Let's say there is a program that calculates Amazon's shipping fees.
 If the total order amount is below $25, there will be a $3 shipping fee.
@@ -40,11 +40,11 @@ console.log('There will be a $3.00 shipping charge for this order')
 
 ```
 
-_STOP_: given that Amazon has over thousands of products, _we can't be writing out conditionals for each product_.
+_STOP_ : given that Amazon has over thousands of products, _we can't be writing out conditionals for each product_.
 
-This is where a function comes in:
+####This is where a function comes in:
 
-
+```
 function order (product, orderAmount) {
    console.log('Thank you for ordering ' + product + '.');
 if (orderAmount >= 25) {
@@ -57,4 +57,8 @@ console.log('There will be a $3.00 shipping charge for this order')
 order('Fruit Loops', 3)
 order('Mackbook Pro', 1200)
 
-Thus, instead of writing a conditional for each prodcut, all we need to do is call one function. In this case: order(product, orderAmount)
+```
+
+Thus, instead of writing a conditional for each prodcut, all we need to do is call one function. In this case: 
+
+```order(product, orderAmount)```
