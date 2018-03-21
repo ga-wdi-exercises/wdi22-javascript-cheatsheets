@@ -24,3 +24,9 @@ In the example, the object that the method is being called on is `person`
 ```javascript
 console.log(this)
 ```
+
+## **Resources**
+----
+[Understand Javascript's `this` with clarity](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
+
+[Understanding Scope and Context in JavaScript](http://ryanmorr.com/understanding-scope-and-context-in-javascript/)
