@@ -7,34 +7,34 @@ Below are cheat sheets you can use to review  what we’ve learned in JavaScript
 
 ## Data Types
 
-  * _Primitive Data Types_ 
+  * [_Primitive Data Types_](primitive_data_types.md)
 
 
 
 
 ## Control Flow
 
-  * _Conditionals_
-  * _Loops_
-  * _Array_
+  * [_Conditionals_](conditionals.md)
+  * [_Loops_](loops.md)
+  * [_Array_](array.md)
 
 
 
 
 ## Functions, Scope and Methods
 
-  * _Functions_
-  * _Scope_
-  * _Higher Order Functions_
-  * _Method_
+  * [_Functions_](functions.md)
+  * [_Scope_](scope.md)
+  * [_Higher Order Functions_](higher_order_functions.md)
+  * [_Methods_](methods.md)
 
 
 
 
 ## Objects and Context
 
-  * _Objects_
-  * _Context_
+  * [_Objects_](objects.md)
+  * [_Context_](context.md)
 
 
 
