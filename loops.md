@@ -85,3 +85,21 @@ for (let i in healthcareExchange) {
   console.log(`${healthcareExchange[i].name} costs ${healthcareExchange[i].premium} with a ${healthcareExchange[i].deductible} deductible.`)
 }
 ```
+
+
+
+
+
+###How to loop through an array
+
+You can use a *for loop* to traverse objects in an array. 
+
+####Example:
+
+```js
+var step;
+for (step = 0; step < 5; step++) {
+  // Runs 5 times, with values of step 0 through 4.
+  console.log('Walking east one step');
+}
+```
