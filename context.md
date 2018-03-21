@@ -3,7 +3,7 @@
 Context is the [object](./objects.md) that a function is attached to.
 
 
-When a Javascript function is invoked, a context is set.  The context will be the same value of the object that owns the running code at that moment.  The value can be referenced with `this`.  Basically, `this` is a substitute for the object in question.
+When a Javascript [function](./functions.md) is invoked, a context is set.  The context will be the same value of the object that owns the running code at that moment.  The value can be referenced with `this`.  Basically, `this` is a substitute for the object in question.
 
 
 ### example
