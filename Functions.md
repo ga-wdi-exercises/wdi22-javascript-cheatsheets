@@ -72,22 +72,24 @@ Let's break down our previous example to go over how to create a function.
 
 #### Function Container
 
-```function order () {
+```
+function order () {
 // This is what we call function container
 // Here "order" is the name of the function
-// The parenthesis is designated for *optional* parameters/argument
+// The parenthesis is designated for *optional* parameters/arguments
 }
-s
+
 ```
 
 #### Input (Arguments or Parameters)
 
 
-```function order (product, orderAmount) {
+```
+
+function order (product, orderAmount) {
     // Here we have an a parameter (product, orderAmount)
 // Inputs are optional. The function will still work without it.
 }
-
 
 ```
 
