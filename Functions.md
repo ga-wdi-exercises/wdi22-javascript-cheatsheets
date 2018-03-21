@@ -19,7 +19,8 @@ If the total order amount is above $25, shipping is free!
 Using, conditional statements, this how our code would look:
 
 
-```let product = "Fruit Loops"
+``` js
+let product = "Fruit Loops"
 let orderAmount = 3
 console.log('Thank you for ordering ' + 'product');
 if (orderAmount >= 25) {
@@ -43,7 +44,7 @@ _STOP_ : given that Amazon has over thousands of products, _we can't be writing 
 
 #### This is where a function comes in:
 
-```
+``` js
 function order (product, orderAmount) {
   console.log('Thank you for ordering ' + product + '.');
 if (orderAmount >= 25) {
@@ -72,7 +73,7 @@ Let's break down our previous example to go over how to create a function.
 
 #### Function Container
 
-```
+```js
 function order () {
 // This is what we call function container
 // Here "order" is the name of the function
@@ -81,10 +82,12 @@ function order () {
 
 ```
 
+_Side Note_ : Naming convention is important. Make sure you give your function a name that describes what it does. Keep it short, and use camelCase.
+
 #### Input (Arguments or Parameters)
 
 
-```
+```js
 
 function order (product, orderAmount) {
     // Here we have an a parameter (product, orderAmount)
@@ -95,7 +98,7 @@ function order (product, orderAmount) {
 
 #### Output and side Effects
 
-```
+```js
 function order (product, orderAmount) {
   console.log('Thank you for ordering ' + product + '.')
   return 'Congrats on your purchase!'
@@ -106,3 +109,29 @@ function order (product, orderAmount) {
 }
 
 ```
+
+#### Calling a Function
+
+Once we defined our function, we call or invoke it by using the function name followed by parentheses.
+
+Example:
+
+``` js
+function order (product, orderAmount) {
+  console.log('Thank you for ordering ' + product + '.')
+  return 'Congrats on your purchase!'
+}
+  order (product, orderAmount)
+```
+
+To call a function with no input, just put the function name  the empty followed by parentheses
+
+```js
+function order ()) {
+  console.log('Thank you for ordering ' + product + '.')
+  return 'Congrats on your purchase!'
+}
+  order ()
+```
+
+
