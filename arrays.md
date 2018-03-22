@@ -6,7 +6,7 @@
 Example: x = [1, 2, 3]
 ```
 
-In order to understand what an array is, you *must* understand that indexing in an array begins at 0. **In other words, the first element will begin at "0", the second element in an array will be put as "1", and so on.** Arrays are used to access elements.
+In order to understand what an array is, you *must* understand that indexing in an array begins at 0. **In other words, the first element will begin at "0", the second element in an array will be put as "1", and so on.** Arrays are used to access elements. [^fn]
 
 ### _*Creating an Array*_ Using an array literal is the easiest way to create a JavaScript Array. 
 
@@ -25,8 +25,8 @@ Spaces and line breaks are not important. A declaration can span multiple lines:
 ```js 
 var cars = [ "Saab", "Volvo", "BMW" ];
 ``` 
-
-###Access the Elements of an Array 
+[^fn]
+### Access the Elements of an Array 
 
 You refer to an array element by referring to the index number. 
 
@@ -36,14 +36,14 @@ You refer to an array element by referring to the index number.
 var name = cars[0]; 
 This statement modifies the first element in cars: cars[0] = "Opel";
 ```
-
+[^fn]
 *Example* 
 
 ```js
 var cars = ["Saab", "Volvo", "BMW"]; document.getElementById("demo").innerHTML = cars[0];
 ```
-
-###*Array Properties and Methods* 
+[^fn]
+### *Array Properties and Methods* 
 
 The real strength of JavaScript arrays are the built-in array properties and methods: 
 
@@ -52,8 +52,8 @@ The real strength of JavaScript arrays are the built-in array properties and met
 ```js
 var x = cars.length; // The length property returns the number of elements var y = cars.sort(); // The sort() method sorts arrays Array methods are covered in the next chapters. 
 ```
-
-###*The length Property* 
+[^fn]
+### *The length Property* 
 
 The length property of an array returns the length of an array (the number of array elements). 
 
@@ -65,8 +65,8 @@ Js var fruits = ["Banana", "Orange", "Apple", "Mango"]; fruits.length;
 // the length of fruits is 4 
 ```
 
-
-###*Looping Array Elements* 
+[^fn]
+### *Looping Array Elements* 
 
 The best way to loop through an array, is using a "for" loop: 
 
@@ -77,6 +77,14 @@ The best way to loop through an array, is using a "for" loop:
 var fruits, text, fLen, i; fruits = ["Banana", "Orange", "Apple", "Mango"]; fLen = fruits.length; text = "<ul>"; for (i = 0; i < fLen; i++) { text += "<li>" + fruits[i] + "</li>"; }
 ```
 
-### See also: 
-[Higher Order Functions](./higher_order_functions.md)  
-[Objects](./objects.md)
+
+
+
+
+
+
+[^fn]
+
+
+
+[^fn] March 13, 2018 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
